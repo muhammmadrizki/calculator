@@ -2,15 +2,22 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Simple Calculator built with HTML, CSS, and JavaScript for Digitalent Kominfo x Progate 2023 final project." />
+
     <title>Calculator</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet" />
 </head>
 
 <body>
     <div class="calculator">
-        <input type="text" name="" id="display" disabled>
+        <input type="text" id="display" disabled />
         <div class="button">
             <button class="btn" onclick="appendValue('7')">7</button>
             <button class="btn" onclick="appendValue('8')">8</button>
@@ -29,12 +36,6 @@
             <button class="btn operator" onclick="calculate()">=</button>
             <button class="btn operator" onclick="appendValue('+')">+</button>
             <button class="btn clear" onclick="clearDisplay()">Reset</button>
-
-
-
-
-
-
         </div>
     </div>
 
